@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final</title>
+    <link href="css/style.css " rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel=" stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Title</title>
+</head>
+<body>
+<h1 >TODO LIST</h1>
+<div class="enter" id="enter">
+    <div class="left"><form name="enter__task"><input id="task-now" class="task-now" type="text" name="text" value=""></form></div>
+    <div class="right"><input id="myInput" class="enter__button" type="button" value="ADD" onclick="bar()"></div>
+</div>
+
+<div class="search" id="search">
+    <div class="sort-data">
+        <div class="sort-data__up"><input id="sort-up" type="image" src="img/elUp.png" alt=""></div>
+        <div class="sort-data__bot"><input id="sort-bot" type="image" src="img/elBot.png" alt=""></div>
+    </div>
+    <div class="sort-nomer">
+        <div class="sort-nomer__up"><input id="nomer-up" type="image" src="img/elUp1.png" alt=""></div>
+        <div class="sort-nomer-center">123</div>
+        <div class="sort-nomer__bot"><input id="nomer-bot" type="image" src="img/elBot1.png" alt=""></div>
+    </div>
+    <div class="left1"><form name="search__task"><input class="search-now" type="search" name="text" value="⌕"></form></div>
+    <div class="right1"><input class="search__button" type="image" src="img/filtr1.png" alt=""></div>
+</div>
+<div class="big-block">
+    <div class="container" id="container">
+        <div class="none">
+            <div class="stroka" id="stroka">
+
+                <div class="data" id="demo"></div>
+                <div class="number" id="number">1</div>
+                <div class="strelki">
+
+                    <div id="DivV"><input class="up" type="image" src="img/up.png" alt=""></div>
+                    <div id="DivN"><input class="bottom" type="image" src="img/bottom.png" alt=""></div>
+
+                </div>
+                <div class="anytask">
+
+                </div>
+                <div class="edit">
+                    <div class="edit-elem" id=""><input class="edit__button" type="image" src="img/red.png" alt=""></div>
+                </div>
+                <div class="yet">
+                    <div class="yet-elem"><input class="yet__button" type="image" src="img/gal.png" alt=""></div>
+                </div>
+                <div class="delete" id="delete">
+                    <div class="del-elem" id="del-elem"><input class="delete__button" type="image" src="img/kor1.png"
+                                                               alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2" id="container2">
+        <div class="delete-item" id="delete-item">
+            <p>Delete item?</p>
+            <input class="no" type="button"  value="NO" id="no">
+            <input class="yes" type="button"  value="YES" id="yes">
+        </div>
+        <div class="edit-text" id="edit-text">
+            <p>Edit text</p>
+            <div><input class="new-text" type="text" value="New text of todo item..."></div>
+            <input class="cancel" type="button"  value="CANCEL" id="cancel">
+            <input class="save" type="button"  value="SAVE" id="save">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--<i class="fa fa-search" aria-hidden="true"></i>-->
+<script src="js/myjs.js"></script>
+</body>
+</html>
